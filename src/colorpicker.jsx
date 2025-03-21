@@ -9,14 +9,13 @@ function ColorPicker(){
     let styles = {
         backgroundColor: color
     }
-
-
+     
     function handleColorChange(event){
         setColor(event.target.value);
     }
-
-
-    return(
+     
+     
+     return(
         <div className="color-picker-container">
             <h1> Color Picker</h1>
             
